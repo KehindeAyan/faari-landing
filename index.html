@@ -115,6 +115,9 @@
   .lang-toggle .lang-en.active,
   .lang-toggle .lang-fr.active { color: var(--black); }
 
+  .nav-signin { font-size: 13px; color: var(--grey-600); text-decoration: none; white-space: nowrap; padding: 10px 2px; }
+  .nav-signin:hover { color: var(--black); }
+  @media (max-width: 600px) { .nav-signin { display: none; } }
   .nav-cta { display: inline-flex; align-items: center; background: var(--black); color: var(--white); padding: 10px 22px; border-radius: 100px; font-size: 13px; font-weight: 400; text-decoration: none; white-space: nowrap; }
 
   /* HERO */
@@ -701,6 +704,7 @@
     <span class="nav-logo-faari"><svg class="nav-logo-mark" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 64 64"><g fill="none" stroke="#2d6a4f" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"><path d="M32 52 V24"/><path d="M32 42 C 32 33, 25 28, 17 28"/><path d="M32 35 C 32 26, 39 21, 47 21"/></g><circle cx="17" cy="28" r="4.6" fill="#2d6a4f"/><circle cx="47" cy="21" r="4.6" fill="#2d6a4f"/><circle cx="32" cy="17" r="5.6" fill="#1a3a2a"/></svg>Faari</span>
   </a>
   <div class="nav-right">
+  <a href="https://app.faari.ddlab.dev/" class="nav-signin" data-en="Sign in" data-fr="Se connecter">Sign in</a>
   <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">
     <span class="lang-en active">EN</span>
     <span class="lang-sep">·</span>
@@ -1069,6 +1073,7 @@
   <span class="footer-left" data-en="© 2026 Faari · A DDLab venture · Abidjan, Côte d'Ivoire" data-fr="© 2026 Faari · Une initiative DDLab · Abidjan, Côte d'Ivoire">© 2026 Faari · A DDLab venture · Abidjan, Côte d'Ivoire</span>
   <span class="footer-meaning" data-en="Faari (FAH-ree) · farming, in Dioula" data-fr="Faari (FAH-ree) · cultiver, en Dioula">Faari (FAH-ree) · farming, in Dioula</span>
   <span class="footer-right">
+    <a href="https://app.faari.ddlab.dev/" data-en="Faari app ↗" data-fr="Application Faari ↗">Faari app ↗</a> &nbsp;·&nbsp;
     <a href="https://www.ddlab.dev">DDLab.dev</a> &nbsp;·&nbsp;
     <a href="#contact">Contact</a>
   </span>
